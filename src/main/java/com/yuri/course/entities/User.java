@@ -31,7 +31,7 @@ public class User implements Serializable {
 	private List<Order> orders = new ArrayList<>();
 	
 	
-	private User() {
+	public User() {
 	}
 
 	public User(Long id, String name, String email, String phone, String password) {
